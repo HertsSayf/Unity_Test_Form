@@ -14,10 +14,31 @@ Considerations;
 
 Pros;
 - Other a variatey of ways to play the game
-- Encourages creativity in how players of the game design their hiding spots
-  
+- -encourages creativity in how players of the game design their hiding spots
 
+Cons;
+- development could be more complex, especially if good graphics needed
+- Might appeal to a narrower audience 
 
+## Chat App
+A simple text based chat app, multiple users can send messages to each other. Text formatting, private/group messaging and file sharing could be features involved in this app.
+
+Target audience;
+- Social users, students-anyone who communicates regulary and wants to used a customized chat app to communicate with others. It could be used for casual users or communites/businesses with specific needs
+
+Considerations;
+- Security, Either a basic messaging system, or if it requires a username and password to access the system
+- User experience, easy-to=use interface, real-time messaging and notifications systems when receiving messages from others
+- Multiplayer, Real-time nature of talking to others, be able to hold multiple users at once
+
+Pros;
+- demand is high for chat apps
+- Can add features like user profiles, media sharing and video calls
+
+Cons;
+- can be challenging to make (data base management of users)
+- Highly competitive market
+- Will need alot of time spent on coding 
 
 # <ins> Reviewing Target Audiences <ins/>
 As any software project goes, it's essential to plan and build around an intended target audience. For the chosen project of building functioning mobile-ready Chat App, there are multiple possible target audiences to consider from:
