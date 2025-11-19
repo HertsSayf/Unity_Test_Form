@@ -268,7 +268,56 @@ Lightweight app that works smoothly on mobile devices.
  - A stable internet connection
 
 # Application Functions
- - 
+
+User Account Management:
+
+- The system must allow users to create an account using a unique username.
+
+- The system must allow existing users to log in and authenticate securely.
+
+- The system must store and manage basic user profile information.
+
+Real-Time Messaging
+
+- The system must allow users to send and receive text messages in real time.
+
+- The system must display message timestamps and sender information.
+
+- The system must show message delivery status (sent/failed).
+
+Chat Rooms Management
+
+- The system must maintain multiple active chat rooms simultaneously.
+
+- The system must load recent chat history when users join a room.
+
+User Presence and Online Status
+
+- The system must track which users are currently online.
+
+- The system must display a list of online users in each room.
+
+Notifications
+
+- Users must receive notifications when new messages arrive.
+
+Message History
+
+- The system must store past messages.
+
+- Users must be able to view message histories of chats
+
+Security and Access Control
+
+- Users must only see messages in rooms they are part of.
+
+- Users must only be able to delete or edit their own messages (optional)
+
+User Interaction Controls
+
+- Users must be able to join or leave chat rooms from the interface.
+
+- Users must access basic settings such as profile and mute/block controls.
 
 
 
@@ -278,7 +327,7 @@ Lightweight app that works smoothly on mobile devices.
 
 
 
-# <ins> High-Level non-Functional Specifications <ins/>
+# <ins> High-Level Non-Functional Specifications <ins/>
 
 # Aesthetics
 
