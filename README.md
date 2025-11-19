@@ -330,13 +330,18 @@ Lightweight app that works smoothly on mobile devices.
 # <ins> High-Level Non-Functional Specifications <ins/>
 
 # Aesthetics
+Chat game will have a clean and minimalistic layout/design. The background will be a solid colour, with easy to read font types. Finally the menu on the side with be high quality and large enough to properly gather what people and online and offline via their names.
 
-
-# Usabillity 
-
-
-# Ease of use
-
+# Usability
+The game will have a simple navigation system with clear visual cues to understand what next to do, the chat app allows users of all ages to understand how to use the app and get started via creating an account.
 
 # Feedback style
+when sending a message to someone else, it will have a verification bar next to the message, one bar to show its sent and two bars to show it has been sent and read. If a user ypes and is about to send an incomplete message, the ap could suggest improvements or format corrections.
+
+# Basic needs
+Each user will have a profile with an avatar and username, each user has options to create direct or groups messages (up to 12). Search functionality for finding old chats or different contacts, finally message history with ability to see previous messages from few weeks back.
+ 
+ # Error handling
+If a message can't be sent due to connectivity issues, users should receive a notification saying something went wrong "please check your connections and try again", a retry button to try resend a undelivered messae and a offline warning, messages saved until other user back online to receive it.
+
 
