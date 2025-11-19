@@ -5,7 +5,8 @@
 
 Players can hide either objects or their avatars within a game mode, while another player (team) tries to find them. 
 
-Target audience: This would be catered towards younger players (kids and teenagers), it may be appealing for small groups of people who enjoy multiplayer games.
+Target audience;
+This would be catered towards younger players (kids and teenagers), it may be appealing for small groups of people who enjoy multiplayer games.
 
 Considerations;
 -Game design, the hiding areas must be dynamic full with objects
