@@ -6,7 +6,7 @@
 
 
 
-# Target Audiences 
+# _Target Audiences_ 
 As any software project goes, it's essential to plan and build around an intended target audience. For the chosen project of building functioning mobile-ready Chat App, there are multiple possible target audiences to consider from:
 
-# Family/Friends
+## Family/Friends
