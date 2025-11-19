@@ -90,51 +90,49 @@ The project will be completed with casual use in mind, for families and friends 
 # <ins> Overall Specification – Chat Application <ins/>
 
 # Core User Requirements
-- Create an account or log in using a username.
-- Join a global chat room or create/join private chat rooms.
+- Create an account or log in using a username
+- Join a global chat room or create/join private chat rooms
 
-- Send and receive text messages in real time.
-- View a list of online users.
-- See timestamps for messages.
-- Receive notifications when new messages arrive.
-- View past messages (chat history).
+- Send and receive text messages in real time
+- View a list of online users
+- Receive notifications when new messages arrive
+- View past messages (chat history)
 
 # Optional User Requirements
-- Send emojis or simple reactions.
-- Edit or delete their own messages within a set time limit.
-- Block or mute other users.
-- Customise basic profile information (avatar, display name).
+- Send emojis or simple reactions
+- Edit or delete their own messages within a set time limit
+- Block or mute other users
+- Customise basic profile information (avatar, display name)
 
 # System Requirements
 Functional Requirements;
-- The system must store user accounts (username, password hash, profile info).
-- The system must transmit messages between users via a server.
-- The system must store messages with timestamps.
-- The system must update all connected clients in real time when a new message is sent.
-- The system must allow creation of multiple chat rooms.
-- The system must keep track of which users are currently online.
-- The system must prevent unauthorised access through authentication.
+- The system must store user accounts (username, password hash, profile info)
+- The system must transmit messages between users via a server
+- The system must store messages with timestamps
+- The system must update all connected clients in real time when a new message is sent
+- The system must allow creation of multiple chat rooms
+- The system must keep track of which users are currently online
+- The system must prevent unauthorised access through authentication
 
 # Non-Functional Requirements
-- Performance: Messages should appear for all users in under 1 second.
-- Reliability: Server uptime should be above 99%.
-- Scalability: Support a minimum of 100 concurrent users.
-- Security: Passwords stored using hashing; all communication encrypted.
+- Performance: Messages should appear for all users in under 1 second
+- Reliability: Server uptime should be above 99%
+- Scalability: Support a minimum of 100 concurrent users
+- Security: Passwords stored using hashing; all communication encrypted
 - Compatibility: Work across desktop and mobile browsers (responsive design).
-
 # Human–Computer Interaction (HCI) Requirements
 Interface Layout;
-- Clean, minimalistic UI.
-- Message area takes up the majority of the screen.
-- User list panel visible on the side.
-- Text input box fixed at the bottom.
-- Date/time separators for clarity.
+- Clean, minimalistic UI
+- Message area takes up the majority of the screen
+- User list panel visible on the side
+- Text input box fixed at the bottom
+- Date/time separators for clarity
 
 # Usability Requirements
-- Simple login flow.
-- Predictable behaviour for send button and “Enter” key.
-- Messages shown in chat bubbles with clear sender labels.
-- Distinguishable color scheme for own messages vs others.
+- Simple login flow
+- Predictable behaviour for send button and “Enter” key
+- Messages shown in chat bubbles with clear sender labels
+- Distinguishable color scheme for own messages vs others
 
 Clear feedback when:
 - Message has been sent
@@ -142,22 +140,22 @@ Clear feedback when:
 - A user joins/leaves
 
 # Accessibility
-- Adjustable text size.
-- Keyboard-only navigation support.
-- High-contrast mode.
+- Adjustable text size
+- Keyboard-only navigation support
+- High-contrast mode
 
 # Game-Rules and Game-Mechanics Equivalent
 Games rules;
-- A user must be logged in to send or receive messages.
-- Users can only delete their own messages.
-- A chat room must have at least one user to exist.
-- A user cannot see messages in rooms they are not part of.
-- Muted users’ messages will not be shown to the muting user.
+- A user must be logged in to send or receive messages
+- Users can only delete their own messages
+- A chat room must have at least one user to exist
+- A user cannot see messages in rooms they are not part of
+- Muted users’ messages will not be shown to the muting user
 
 # System Mechanics
-- When a message is sent, the server verifies sender identity, stores message in the database, and broadcasts to all users in the room.
-- Users are marked online when authenticated and connected; offline when disconnected.
-- Users may join or leave rooms. When joining, the last X messages are loaded from history.
+- When a message is sent, the server verifies sender identity, stores message in the database, and broadcasts to all users in the room
+- Users are marked online when authenticated and connected; offline when disconnected
+- Users may join or leave rooms. When joining, the last X messages are loaded from history
 
 # Notifications appear when;
 - a new message arrives
@@ -191,22 +189,23 @@ Games rules;
 
 # System Architecture Overview
 - Frontend (Client): HTML/CSS/JavaScript UI
-- Backend (Server): Node.js / Python / Java / etc.
+- Backend (Server): Node.js / Python / Java 
 - Database: SQL or NoSQL
 - Communication: WebSockets or long-polling for real-time messaging
 
 # Constraints
-- The system must support multiple active rooms.
-- Only text messages (and optional emojis) — no file transfers unless extended.
-- The entire application must run efficiently on low-spec mobile devices.
+- The system must support multiple active rooms
+- Only text messages (and optional emojis) — no file transfers unless extended
+- The entire application must run efficiently on low-spec mobile devices
 
 # Acceptance Criteria
 The project is deemed successful if;
-- Multiple users can sign in simultaneously.
-- Users can join a room and exchange real-time text messages.
-- System remains stable with 100+ concurrent connections.
-- Chat history loads correctly.
-- Basic moderation tools (mute/block) work as designed.
+- Multiple users can sign in simultaneously
+- Users can join a room and exchange real-time text messages
+- System remains stable with 100+ concurrent connections
+- Chat history loads correctly
+- Basic moderation tools (mute/block) work as designed
+
 
 
 # <ins> User Profiles <ins/>
