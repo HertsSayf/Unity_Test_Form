@@ -375,3 +375,15 @@ If a message can't be sent due to connectivity issues, users should receive a no
 
 <img width="983" height="714" alt="image" src="https://github.com/user-attachments/assets/494e63ae-e7af-4db2-992a-6b0e4890b18b" />
 
+
+# Daniel Drafts
+
+<img width="409" height="248" alt="image" src="https://github.com/user-attachments/assets/1506576e-d4f1-473f-8a28-2810c805d5ed" />
+
+<img width="311" height="777" alt="image" src="https://github.com/user-attachments/assets/0ed5dbd9-8424-4dbb-8c24-f2edad093fed" />
+
+<img width="304" height="595" alt="image" src="https://github.com/user-attachments/assets/8f85f58a-e034-4520-bf19-7c662a7bcaa2" />
+
+<img width="838" height="575" alt="image" src="https://github.com/user-attachments/assets/bfa3e166-f33a-4d36-a14a-1823810e61ec" />
+
+<img width="857" height="621" alt="image" src="https://github.com/user-attachments/assets/1755052f-8f26-49ad-92ef-fe4d74ad4887" />
