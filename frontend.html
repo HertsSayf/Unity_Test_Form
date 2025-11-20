@@ -20,14 +20,14 @@ body {
   justify-content: center;
   align-items: center;
   background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
-    url("/mnt/data/360_F_176672598_cJ4yPCFhxvDXm9Cu7vDLIcXpvTMQJ9zm.jpg") 
+    url("/mnt/data/360_F_176672598_cJ4yPCFhxvDXm9Cu7vDLIcXpvTMQJ9zm.jpg")
     no-repeat center center/cover;
 }
 
 
 .wrapper {
   width: 95%;
-  max-width: 1100px;
+  max-width: 1400px;
   height: 90vh;
   border-radius: 25px;
   background: rgba(0, 0, 0, 0.55);
@@ -41,13 +41,18 @@ body {
 
 .logo-bg {
   position: absolute;
-  right: -180px;
   top: 50%;
-  transform: translateY(-50%);
-  opacity: 0.30;
-  width: 70%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 150%;               /* Big like screenshot */
+  opacity: 0.18;             /* Faded like your example */
+  filter: blur(0.8px);       /* Slight blur for smoothness */
   pointer-events: none;
+  z-index: 0;
 }
+
 
 .side {
   width: 40%;
@@ -67,6 +72,7 @@ h1 {
   letter-spacing: 10px;
   font-size: 32px;
 }
+
 
 label {
   font-size: 12px;
@@ -94,6 +100,7 @@ input {
   margin-top: 10px;
 }
 
+
 .register {
   position: absolute;
   top: 25px;
@@ -109,6 +116,7 @@ input {
   z-index: 3;
 }
 
+
 @keyframes slideIn {
   to {
     opacity: 1;
@@ -116,10 +124,11 @@ input {
   }
 }
 
-/* -----------------------------------------
-   MOBILE + TABLET RESPONSIVENESS
------------------------------------------ */
+/* ============================
+   📱 MOBILE VERSION
+   ============================ */
 @media (max-width: 900px) {
+
   .wrapper {
     flex-direction: column;
     height: auto;
@@ -133,8 +142,14 @@ input {
     text-align: center;
   }
 
+  
   .logo-bg {
-    display: none;
+    width: 200px;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.33;
+    filter: none;
   }
 
   input, .btn-login {
@@ -151,11 +166,7 @@ input {
 @media (max-width: 500px) {
   h1 {
     font-size: 28px;
-    letter-spacing: 5px;
-  }
-
-  body {
-    padding: 10px;
+    letter-spacing: 6px;
   }
 }
 </style>
@@ -166,6 +177,7 @@ input {
 
   <button class="register">NEW HERE? REGISTER AN ACCOUNT</button>
 
+  
   <img src="https://i.ibb.co/rKwdGgBn/UNITELOGO2transparent.png" class="logo-bg" />
 
   <div class="side">
@@ -188,4 +200,3 @@ input {
 </div>
 </body>
 </html>
-
