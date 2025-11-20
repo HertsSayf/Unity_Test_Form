@@ -369,7 +369,7 @@ If a message can't be sent due to connectivity issues, users should receive a no
 
 <img width="408" height="775" alt="image" src="https://github.com/user-attachments/assets/3d42b076-8bae-4080-9011-520fb1b74dcb" />
 
-<img width="409" height="773" alt="image" src="https://github.com/user-attachments/assets/336f2af1-60e6-4740-ac90-19034a9ae3fc" />
+<img width="406" height="784" alt="image" src="https://github.com/user-attachments/assets/60c4e149-a7c4-43dc-8497-ded3fcc581ef" />
 
 <img width="981" height="701" alt="image" src="https://github.com/user-attachments/assets/590036b4-2d7d-456b-9f6a-1ea8ccf7d7f0" />
 
