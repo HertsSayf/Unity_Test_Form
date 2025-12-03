@@ -396,6 +396,9 @@ If a message can't be sent due to connectivity issues, users should receive a no
 - Settings Page
 <img width="838" height="799" alt="image" src="https://github.com/user-attachments/assets/05f09fe2-aa98-43fe-b74e-32a8611f48b9" />
 
+- Profile Page
+<img width="794" height="747" alt="image" src="https://github.com/user-attachments/assets/c44ad11e-e3f7-438d-b89c-6a5118dfa284" />
+
 ## Potential Project Risks
 
 #Technical arcitecture
