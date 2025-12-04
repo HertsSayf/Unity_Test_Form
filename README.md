@@ -491,11 +491,11 @@ function createGroupChat(creatorID, memberList):
 
 ## Basic UML-Style Flowcharts ##
 
-# login flow chart #
+# Login flow chart #
 <img width="518" height="716" alt="login flow" src="https://github.com/user-attachments/assets/79abbb37-6332-44cd-9aed-a98fb43dcecf" />
 
-# message sending flow chart #
+# Chat screen state flow chart   #
 <img width="359" height="489" alt="image" src="https://github.com/user-attachments/assets/42df6081-9545-4bfb-903d-8dfd1fe338e2" />
 
-# login flow chart #
+# Message sending flow chart #
 <img width="377" height="651" alt="message sending flow" src="https://github.com/user-attachments/assets/454e6a0a-3633-49af-929f-6eb2da85054d" />
