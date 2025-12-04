@@ -453,3 +453,41 @@ If a message can't be sent due to connectivity issues, users should receive a no
 - Message backup/export
 - End-to-end encryption (E2EE) or at minimum message encryption in transit (TLS)
 - Secure user authentication (OAuth 2.0, JWT, or password-based authentication with hashing)
+
+## basic pseudo coide ##
+
+# Login #
+function registerUser(username, password):
+    if usernameExists(username):
+        return "Username taken"
+    hashedPassword = hash(password)
+    saveToDatabase(username, hashedPassword)
+    return "Registration successful"
+    
+
+function loginUser(username, password):
+    if !usernameExists(username):
+        return "User not found"
+    if compareHash(password, getStoredHash(username)):
+        createSession(username)
+        return "Login successful"
+    else:
+        return "Invalid credentials"
+
+# send messages #
+function sendMessage(senderID, receiverID, messageText):
+    encryptedText = encrypt(messageText, receiverPublicKey)
+    message = createMessageObject(senderID, receiverID, encryptedText)
+    saveToDatabase(message)
+    pushToReceiver(receiverID, message)
+    return "Message Sent"
+
+# Create group chat #
+function createGroupChat(creatorID, memberList):
+    groupID = generateGroupID()
+    saveGroup(groupID, creatorID, memberList)
+    notifyMembers(memberList)
+    return groupID
+
+
+
