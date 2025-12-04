@@ -424,3 +424,32 @@ If a message can't be sent due to connectivity issues, users should receive a no
 
 # Limited deployment knowledge
 - Possible difficulty deploying servers, this could lead to deployment errors making the system unusable
+
+## Core requirements ##
+
+# User Accounts #
+- Register, login, logout
+- Profile management (username, avatar, status)
+
+# Real-Time Messaging #
+- One-to-one chat
+- Group chats
+- Message sending, receiving, editing, deleting
+- Typing indicators and read receipts
+
+# Media Support #
+- Send images, videos, documents, voice notes
+
+# Notifications #
+- Push notifications for new messages
+- Contact Management
+- Add/remove contacts
+- Search contacts
+
+# Additional (Optional) Features #
+- Voice/video calls
+- Status updates
+- Multi-device sync
+- Message backup/export
+- End-to-end encryption (E2EE) or at minimum message encryption in transit (TLS)
+- Secure user authentication (OAuth 2.0, JWT, or password-based authentication with hashing)
