@@ -490,6 +490,8 @@ function createGroupChat(creatorID, memberList):
     return groupID
 
 ## Basic UML-Style Flowcharts ##
+# App Logic Flowchart
+<img width="2142" height="1018" alt="image" src="https://github.com/user-attachments/assets/715f380e-361f-45ce-9289-089a44115f14" />
 
 # Login flow chart #
 <img width="518" height="716" alt="login flow" src="https://github.com/user-attachments/assets/79abbb37-6332-44cd-9aed-a98fb43dcecf" />
