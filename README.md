@@ -401,7 +401,8 @@ If a message can't be sent due to connectivity issues, users should receive a no
 
 ## Logo Link
 - https://i.postimg.cc/GtXyJgkf/Unity-Logo.png
-- used in code for a direct link to implement the unity logo
+- used in code for a direct link to implement the unity logo:
+<img width="555" height="121" alt="image" src="https://github.com/user-attachments/assets/eef70440-68b2-4aa1-946a-a8ced6381c41" />
   
 ## Potential Project Risks
 
