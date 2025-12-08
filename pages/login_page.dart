@@ -7,6 +7,15 @@ class LoginPage extends StatelessWidget {
     Widget build(BuildContext context) {
         return Scaffold(
           backgroundColor: Theme.of(context).colorScheme.surface,
+          body: Column(
+            children: [
+              //Unity Logo
+              Image.network(
+                'https://i.postimg.cc/GtXyJgkf/Unity-Logo.png',
+                height: 120,
+              ),
+            ]
+          )
         );
     }
 }
