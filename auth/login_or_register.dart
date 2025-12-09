@@ -25,8 +25,12 @@ class_LoginOrRegisterState extends State<LoginOrRegister? {
   widget build(BuildContext context) {
    if (showLoginPage) {
      return LoginPage();
-  }  else 
-     return RegisterPage();
+       onTap: togglePages,
+     );
+  }  else {
+     return RegisterPage(
+       OnTap: togglePages,
+    );
   }
 }
 }
