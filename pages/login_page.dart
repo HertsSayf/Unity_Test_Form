@@ -1,19 +1,72 @@
 import 'package:flutter/material.dart';
+import 'package:unity_main/auth/auth_service.dart';
 import 'package:unity_main/components/textfield.dart';
 import 'package:unity_main/components/my_button.dart';
 
-class LoginPage extends StatelessWidget {
+class LoginPage extends StatefulWidget {
+  //Tap to go to register page
+  final void Function()? onTap;
+    
+  const LoginPage({super.key, required this.onTap});
+
+  @override
+  State<LoginPage> createState() => _LoginPageState();
+}
+
+class _LoginPageState extends State<LoginPage> {
   //Email and pw text controllers 
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _pwController = TextEditingController();
 
-  //Tap to go to register page
-  final void Function()? onTap;
-    
-  LoginPage({super.key, required this.onTap});
+  @override
+  void dispose() {
+    _emailController.dispose();
+    _pwController.dispose();
+    super.dispose();
+  }
 
   //Login methods 
-  void login() {}
+  void login(BuildContext context) async {
+    // Show loading indicator
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => const Center(
+        child: CircularProgressIndicator(),
+      ),
+    );
+    
+    //auth service
+    final authService = AuthService();
+
+    //try login
+    try {
+      await authService.signInWithEmailPassword(
+        _emailController.text, 
+        _pwController.text,
+      );
+      
+      // Pop loading indicator
+      if (context.mounted) Navigator.pop(context);
+    }
+
+    //catch any errors
+    catch (e) {
+      // Pop loading indicator
+      if (context.mounted) Navigator.pop(context);
+      
+      // Show error
+      if (context.mounted) {
+        showDialog(
+          context: context,
+          builder: (context) => AlertDialog(
+            title: const Text('Login Failed'),
+            content: Text(e.toString()),
+          ),
+        );
+      }
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -63,7 +116,7 @@ class LoginPage extends StatelessWidget {
             // login button
             MyButton(
               text: "Login",
-              onTap: login,
+              onTap: () => login(context),
             ),
 
             const SizedBox(height: 25),
@@ -79,7 +132,7 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
                 GestureDetector(
-                  onTap: onTap,
+                  onTap: widget.onTap,
                   child: Text(
                     " Register now",
                     style: TextStyle(
