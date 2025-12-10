@@ -19,3 +19,4 @@ In the development we wanted to you usernames as a way for the user to login, ho
 
 <img width="965" height="747" alt="image" src="https://github.com/user-attachments/assets/f71ad544-66ae-4a78-b06a-0d678a6b6bad" />
 <img width="585" height="250" alt="username" src="https://github.com/user-attachments/assets/d97e2fe1-1a45-4d27-95f6-60569b73475a" />
+<img width="583" height="151" alt="email" src="https://github.com/user-attachments/assets/9f535920-1434-4f2b-a0eb-095801926b10" />
