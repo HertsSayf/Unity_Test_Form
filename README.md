@@ -327,7 +327,6 @@ Each user will have a profile with an avatar and username...
 # Designing the Mock-ups
 
 ## Mahdiat Drafts
-(ALL images preserved exactly as originally provided)
 <img width="363" height="197" alt="image" src="https://github.com/user-attachments/assets/4dd141aa-3c17-4f51-b52b-1c7d3ee84f51" />
 <img width="812" height="398" alt="image" src="https://github.com/user-attachments/assets/bc8cb4a1-62c6-457a-9c26-306aeb798554" />
 <img width="860" height="427" alt="image" src="https://github.com/user-attachments/assets/7910fd55-b45f-48c3-afe1-534e879d2331" />
