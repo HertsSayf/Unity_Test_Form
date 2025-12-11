@@ -23,7 +23,7 @@ class AuthGate extends StatelessWidget {
             return LoginOrRegister();
           }
         }, 
-      ), //streambuilder
-    ); //scaffold
+      ),
+    );
   }
 }
