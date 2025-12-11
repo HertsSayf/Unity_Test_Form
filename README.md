@@ -1,6 +1,10 @@
 # Unity Chat App
 
 <p align="center">
+  <img width="150" src="https://i.postimg.cc/GtXyJgkf/Unity-Logo.png">
+</p>
+
+<p align="center">
   <img width="1024" height="218" src="https://github.com/user-attachments/assets/6e5fcdc3-3477-4cd8-a2bf-b6d7d500b18a">
 </p>
 
