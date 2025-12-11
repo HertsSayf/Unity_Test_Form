@@ -467,6 +467,14 @@ function createGroupChat(creatorID, memberList):
 - Errors and exception handling  
 
 ### State Logic
+- state = "START"  
+- if appOpened: state = "AUTH"  
+- if loginSuccessful: state = "HOME"  
+- if userSelectsChat: state = "CHAT_OPEN"  
+- if userSendsMessage: state = "MESSAGE_SENT"  
+- if receiveMessageEvent: state = "MESSAGE_RECEIVED"  
+- if errorOccurs: state = "ERROR"  
+- if userLogsOut: state = "LOGOUT"  
 
 ---
 
