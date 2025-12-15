@@ -500,6 +500,10 @@ function createGroupChat(creatorID, memberList):
 - Must run efficiently on low-spec mobile devices  
 
 ---
+## Testing
+Detailed tests and results can be found in [Testing.md](./Testing.md)
+
+---
 
 ## References
 
