@@ -28,6 +28,71 @@
 
 ---
 
+## Features
+
+This section highlights key features of the application, supported by screenshots taken from the running app.
+
+---
+
+### 🔐 Authentication (Login & Register)
+
+Users can securely log in or register using the homepage authentication system.
+
+<img src="LOGIN_IMAGE_URL" width="280"> <img src="REGISTER_IMAGE_URL" width="280">
+
+---
+
+### 🌗 Light / Dark Mode
+
+The light and dark mode feature was first identified during the mock-up stage and implemented to improve accessibility and user comfort.
+
+**Key functionality:**
+- Users can switch between light and dark mode
+- Toggle is available via a brightness switch on the settings page
+- Theme state is managed globally across the app
+
+**Implementation files:**
+lib/
+└─ brightness/
+├─ brightness_provider.dart
+├─ dark_mode.dart
+└─ light_mode.dart
+
+
+---
+
+### ⚙️ Settings – Theme Toggle
+
+Light mode (default) with brightness toggle:
+
+<img src="SETTINGS_LIGHT_URL" width="300">
+
+Dark mode enabled via the toggle:
+
+<img src="SETTINGS_DARK_URL" width="300">
+
+---
+
+### 🏠 Home & Chat Pages – Theme Comparison
+
+**Dark Mode**
+
+| Home Page | Chat Page |
+|----------|-----------|
+| <img src="HOME_DARK_URL" width="260"> | <img src="CHAT_DARK_URL" width="260"> |
+
+**Light Mode**
+
+| Home Page | Chat Page |
+|----------|-----------|
+| <img src="HOME_LIGHT_URL" width="260"> | <img src="CHAT_LIGHT_URL" width="260"> |
+
+---
+
+All pages dynamically update to match the selected light or dark theme, ensuring a consistent user experience across the application.
+
+---
+
 ## Reviewing Available Projects
 
 ### Hangman
