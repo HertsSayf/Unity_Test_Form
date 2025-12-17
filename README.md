@@ -28,6 +28,74 @@
 
 ---
 
+## Designing The Mock-ups
+
+### Mahdiat – Initial Draft Mock-ups
+
+| Draft 1 | Draft 2 |
+|--------|--------|
+| <img src="https://github.com/user-attachments/assets/4dd141aa-3c17-4f51-b52b-1c7d3ee84f51" width="280"> | <img src="https://github.com/user-attachments/assets/bc8cb4a1-62c6-457a-9c26-306aeb798554" width="280"> |
+
+| Draft 3 | Draft 4 |
+|--------|--------|
+| <img src="https://github.com/user-attachments/assets/7910fd55-b45f-48c3-afe1-534e879d2331" width="280"> | <img src="https://github.com/user-attachments/assets/22307332-bd28-468c-9f11-761144d1b43e" width="280"> |
+
+| Draft 5 | Draft 6 |
+|--------|--------|
+| <img src="https://github.com/user-attachments/assets/f14a57ec-4fd9-47ae-bab2-4c135caf3d94" width="280"> | <img src="https://github.com/user-attachments/assets/ddf4fec8-c728-458d-88ea-8b6dfee09db5" width="280"> |
+
+| Draft 7 | Draft 8 |
+|--------|--------|
+| <img src="https://github.com/user-attachments/assets/40890b6c-5bdf-49a7-baf7-0bef11b1c849" width="280"> | <img src="https://github.com/user-attachments/assets/5a70f9fb-5dfa-47c4-9fa7-5174967ae46b" width="280"> |
+
+---
+
+### Mahdiat – Final Mock-ups
+
+| Screen 1 | Screen 2 |
+|---------|---------|
+| <img src="https://github.com/user-attachments/assets/3d42b076-8bae-4080-9011-520fb1b74dcb" width="260"> | <img src="https://github.com/user-attachments/assets/60c4e149-a7c4-43dc-8497-ded3fcc581ef" width="260"> |
+
+| Screen 3 | Screen 4 |
+|---------|---------|
+| <img src="https://github.com/user-attachments/assets/590036b4-2d7d-456b-9f6a-1ea8ccf7d7f0" width="300"> | <img src="https://github.com/user-attachments/assets/494e63ae-e7af-4db2-992a-6b0e4890b18b" width="300"> |
+
+---
+
+### Daniel – Initial Draft Mock-ups
+
+| Draft 1 | Draft 2 |
+|--------|--------|
+| <img src="https://github.com/user-attachments/assets/7b4e22fb-8e71-4621-a134-b5c3c60b9ad1" width="280"> | <img src="https://github.com/user-attachments/assets/dd8f488a-2fc7-4acf-b3d8-b9b6214f22ce" width="280"> |
+
+| Draft 3 |
+|--------|
+| <img src="https://github.com/user-attachments/assets/9f68b7c8-9783-4e14-ae00-7af832c18621" width="260"> |
+
+---
+
+### Daniel – Final Mock-ups & Storyboard
+
+| Screen 1 | Screen 2 |
+|---------|---------|
+| <img src="https://github.com/user-attachments/assets/09cd2323-b56a-4123-a0d3-be9508036ee4" width="260"> | <img src="https://github.com/user-attachments/assets/10306ed2-966d-41b0-a10f-e490306e58ee" width="260"> |
+
+| Storyboard Overview |
+|--------------------|
+| <img src="https://github.com/user-attachments/assets/c0622307-1854-44d0-af0e-cda4774fb48a" width="420"> |
+
+---
+
+### Sayf – Individual Mock-ups
+
+#### ⚙️ Settings Page
+<img src="https://github.com/user-attachments/assets/05f09fe2-aa98-43fe-b74e-32a8611f48b9" width="320">
+
+#### 🙍 Profile Page
+<img src="https://github.com/user-attachments/assets/c44ad11e-e3f7-438d-b89c-6a5118dfa284" width="320">
+
+---
+
 ## Features
 
 This section highlights key features of the application, supported by screenshots taken from the running app.
